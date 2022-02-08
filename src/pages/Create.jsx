@@ -1,19 +1,26 @@
 import Typography from '@material-ui/core/Typography';
+import Button from '@material-ui/core/Button';
+import Container from '@material-ui/core/Container';
 
 export default function Create() {
     return (
-        <div>
+        <Container>
             <Typography
-                variant='h1'
-                color='primary'
-                align='center'>
+                variant='h6'
+                component='h2'
+                color='textSecondary'
+                gutterBottom
+            >
                 Create a New Note
             </Typography>
-            <Typography
+
+            <Button
+                onClick={() => console.log('You clicked me')}
                 color='secondary'
-                noWrap>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus cum optio quasi consectetur molestiae nam minima impedit, quibusdam dolorum. Et alias maxime aspernatur excepturi iure similique praesentium? Consequuntur, ipsum consectetur.
-            </Typography>
-        </div>
+                variant='contained'
+            >
+                Submit
+            </Button>
+        </Container>
     )
 }
