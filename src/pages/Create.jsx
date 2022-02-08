@@ -13,7 +13,6 @@ const useStyles = makeStyles({
         }
     },
     title: {
-        textDecoration: 'underline',
         marginBottom: 20
     }
 })
@@ -35,7 +34,6 @@ export default function Create() {
             </Typography>
 
             <Button
-                className={classes.btn}
                 onClick={() => console.log('You clicked me')}
                 color='secondary'
                 variant='contained'
