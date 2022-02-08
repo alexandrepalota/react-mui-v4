@@ -5,16 +5,14 @@ import Create from './pages/Create'
 import { purple } from "@material-ui/core/colors";
 
 const theme = createTheme({
-  typography: {
-    fontFamily: 'Quicksand'
-  },
   palette: {
     primary: {
       main: '#fefefe'
     },
-    secondary: {
-      main: purple
-    }
+    secondary: purple
+  },
+  typography: {
+    fontFamily: 'Quicksand'
   }
 })
 
