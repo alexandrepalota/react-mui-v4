@@ -2,33 +2,21 @@
   "notes": [
     {
       "title": "Yoshi's birthday bash",
-      "details": "Bla bla bla bla bla bla",
+      "details": "Lorem ipsum dolor sit amet, omnium vidisse omittam eum eu, ferri aperiam blandit ut sit. In modo adipiscing complectitur sea, ei ignota graeci eum, impedit interesset et vix. Sumo liber vix cu, est purto corrumpit philosophia cu. Perfecto deserunt at has. Vix hinc definitiones ne, in odio eruditi adolescens mei, dicta conceptam definitiones his at.",
       "category": "reminders",
       "id": 1
     },
     {
       "title": "Complete my ninja training",
-      "details": "Bla bla bla bla bla bla",
+      "details": "Quo ei disputationi reprehendunt. Quo evertitur mnesarchum ne. Cu choro noster torquatos per, qui rebum feugait in, detracto salutandi suavitate his at.",
       "category": "work",
       "id": 2
     },
     {
       "title": "Order a pizza",
-      "details": "Bla bla bla bla bla bla",
+      "details": "Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. It's also called placeholder (or filler) text. It's a convenient tool for mock-ups. It helps to outline the visual elements of a document or presentation, eg typography, font, or layout. Lorem ipsum is mostly a part of a Latin text by the classical author and philosopher Cicero. Its words and letters have been changed by addition or removal, so to deliberately render its content nonsensical; it's not genuine, correct",
       "category": "todos",
       "id": 3
-    },
-    {
-      "title": "Mario's party",
-      "details": "Call Luiggi",
-      "category": "reminders",
-      "id": 4
-    },
-    {
-      "title": "Luiggi's party",
-      "details": "Call Mario",
-      "category": "reminders",
-      "id": 5
     }
   ]
 }
