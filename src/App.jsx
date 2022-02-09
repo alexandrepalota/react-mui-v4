@@ -3,6 +3,7 @@ import { createTheme, ThemeProvider } from "@material-ui/core";
 import Notes from './pages/Notes'
 import Create from './pages/Create'
 import { purple } from "@material-ui/core/colors";
+import Layout from "./components/Layout";
 
 const theme = createTheme({
   palette: {
@@ -24,10 +25,12 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Notes />} />
-          <Route path="/create" element={<Create />} />
-        </Routes>
+        <Layout>
+          <Routes>
+            <Route path="/" element={<Notes />} />
+            <Route path="/create" element={<Create />} />
+          </Routes>
+        </Layout>
       </BrowserRouter>
     </ThemeProvider>
   );
